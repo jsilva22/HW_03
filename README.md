@@ -5,14 +5,14 @@ Essentially, my program is collecting lots of different information from ebay de
 II. How to run my ebay-dl.py file
 This is the code needed to run my file and I want to emphasize that the main things we need are to just add a search item with parenthesis around the word(and for sure '' are needed if the search has more than one word like stuffed animals) and the other thing is the number of pages which in this case is 10. The following code is how to run my file and are the exact examples I used for my three items.
 ```
-python3 ebay-dl.py 'hammer'  --num_pages=10
-python3 ebay-dl.py 'scooter'  --num_pages=10
+python3 ebay-dl.py 'marker'  --num_pages=10
+python3 ebay-dl.py 'eraser'  --num_pages=10
 python3 ebay-dl.py 'pencil sharpener'  --num_pages=10
 ```
 I also added the csv flag which all it does is that instead of converting my dictionary to a json file, my dictionary instead gets turned into a csv file. Here is the code for that:
 ```
-python3 ebay-dl.py 'hammer' --csv  --num_pages=10
-python3 ebay-dl.py 'scooter' --csv  --num_pages=10
+python3 ebay-dl.py 'marker' --csv  --num_pages=10
+python3 ebay-dl.py 'eraser' --csv  --num_pages=10
 python3 ebay-dl.py 'pencil sharpener' --csv  --num_pages=10
 ```
 For anyone interested in doing their own search to get either a json file or csv file here is the general format:
